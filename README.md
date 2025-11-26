@@ -1,17 +1,17 @@
-# armenia-ssn-validator
+# armenian-ssn-validator
 
 Armenian Social Security Number (SSN) validator and generator written in TypeScript for frontend and backend projects. Provide a birth date plus an SSN to validate, or generate a deterministic SSN for QA based on a birth date.
 
 ## Install
 
 ```bash
-npm install armenia-ssn-validator
+npm install armenian-ssn-validator
 ```
 
 ## Usage
 
 ```ts
-import { validateSSN, generateSSN } from "armenia-ssn-validator";
+import { validateSSN, generateSSN } from "armenian-ssn-validator";
 
 const birthDate = "1990-06-15";
 const ssn = "2506901238";
@@ -27,7 +27,7 @@ validateSSN(generated, birthDate); // true
 The package ships ESM and CJS bundles. In CJS environments:
 
 ```js
-const { validateSSN, generateSSN } = require("armenia-ssn-validator");
+const { validateSSN, generateSSN } = require("armenian-ssn-validator");
 
 const birthDate = "1990-06-15";
 const ssn = "2506901238";

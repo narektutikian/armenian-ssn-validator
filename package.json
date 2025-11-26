@@ -30,6 +30,14 @@
   ],
   "author": "Narek Tutikyan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narektutikian/armenian-ssn-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narektutikian/armenian-ssn-validator/issues"
+  },
+  "homepage": "https://github.com/narektutikian/armenian-ssn-validator#readme",
   "devDependencies": {
     "@types/node": "^22.0.0",
     "typescript": "^5.6.0",

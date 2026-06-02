@@ -23,11 +23,11 @@ export interface GenerationOptions {
 }
 
 const centuryOffsets: Array<{ start: number; end: number; offset: number }> = [
-  { start: 1800, end: 1899, offset: 80 }, // 19th century
-  { start: 1900, end: 1999, offset: 0 }, // 20th century
-  { start: 2000, end: 2099, offset: 20 }, // 21st century
-  { start: 2100, end: 2199, offset: 40 }, // 22nd century
-  { start: 2200, end: 2299, offset: 60 } // 23rd century
+  { start: 1800, end: 1900, offset: 80 }, // 19th century
+  { start: 1901, end: 2000, offset: 0 }, // 20th century
+  { start: 2001, end: 2100, offset: 20 }, // 21st century
+  { start: 2101, end: 2200, offset: 40 }, // 22nd century
+  { start: 2201, end: 2300, offset: 60 } // 23rd century
 ];
 
 function normalizeDate(input: Date | string): Date | null {

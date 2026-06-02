@@ -9,6 +9,13 @@ describe("validateSSN", () => {
     expect(validateSSN(ssn, birthDate)).toBe(true);
   });
 
+  it("returns true for a valid SSN that matches the birth date 2", () => {
+    const birthDate = "2000-09-19";
+    const ssn = "6909000498"; // mod-10 check digit based on digits 1-9
+
+    expect(validateSSN(ssn, birthDate)).toBe(true);
+  });
+
   it("fails when the day/sex pair does not match the birth date", () => {
     const birthDate = "1990-06-15";
     const ssn = "5506901238"; // day pair expects 25 (male) or 65 (female)
